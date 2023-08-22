@@ -1,5 +1,5 @@
 {
-  "name": "react-fsd-train",
+  "name": "react-fsd",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pterophyllum-dev/react-fsd-train.git"
+    "url": "git+https://github.com/pterophyllum-dev/react-fsd.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pterophyllum-dev/react-fsd-train/issues"
+    "url": "https://github.com/pterophyllum-dev/react-fsd/issues"
   },
-  "homepage": "https://github.com/pterophyllum-dev/react-fsd-train#readme",
+  "homepage": "https://github.com/pterophyllum-dev/react-fsd#readme",
   "devDependencies": {
     "@types/node": "^17.0.21",
     "@types/react": "^17.0.39",
