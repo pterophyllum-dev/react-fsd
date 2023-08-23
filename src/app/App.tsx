@@ -2,10 +2,10 @@ import cx from 'classnames';
 import { Suspense } from "react";
 import { Routes, Route, Link } from 'react-router-dom';
 
-import { useThemeContext } from "./theme/useTheme";
+import { AboutPage } from "pages/AboutPage";
+import { MainPage } from "pages/MainPage";
 
-import { AboutPageAsync } from "./components/pages/AboutPage/AboutPage.async";
-import { MainPageAsync } from "./components/pages/MainPage/MainPage.async";
+import { useThemeContext } from "./providers/ThemeProvider";
 
 import './styles/index.scss'
 
@@ -21,8 +21,8 @@ const App = () => {
             </header>
             <Suspense fallback={<div>loading...</div>}>
                 <Routes>
-                    <Route path={'/about'} element={<AboutPageAsync />} />
-                    <Route path={'/'} element={<MainPageAsync />} />
+                    <Route path={'/about'} element={<AboutPage />} />
+                    <Route path={'/'} element={<MainPage />} />
                 </Routes>
             </Suspense>
         </div>
